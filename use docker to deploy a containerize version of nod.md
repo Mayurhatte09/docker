@@ -1,6 +1,5 @@
-<img src="https://r2cdn.perplexity.ai/pplx-full-logo-primary-dark%402x.png" style="height:64px;margin-right:32px"/>
 
-# use docker to deploy a containerize version of node.js application. the application should use theficial node.js image and install the required dependences for that configure the container to use volume to persistent data. How can I do this assignment.
+# Use docker to deploy a containerize version of node.js application. the application should use theficial node.js image and install the required dependences for that configure the container to use volume to persistent data. How can I do this assignment.
 
 To complete your assignment of deploying a containerized Node.js application using Docker, follow these structured steps: create your Node.js app, use the official Node.js Docker image, install dependencies, and persist data using Docker volumes.[^1][^2][^3][^4]
 
