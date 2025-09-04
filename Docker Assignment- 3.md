@@ -105,28 +105,5 @@ Data stored in `/usr/src/app/data` will remain safe even if the container is sto
 | Create Volume | `docker volume create node-app-data` | Persistent storage for app data |
 | Run Container | `docker run -d -p 3000:3000 -v node-app-data:/usr/src/app/data node-docker-app` | Start app with data volume |
 
-Follow these steps and commands to reliably containerize, deploy, and persist data in your Node.js app using Docker for your assignment.[^3][^4][^2][^5]
-<span style="display:none">[^10][^6][^7][^8][^9]</span>
 
-<div style="text-align: center">⁂</div>
-
-[^1]: https://docs.docker.com/guides/nodejs/containerize/
-
-[^2]: https://cyberpanel.net/blog/docker-image-node-js
-
-[^3]: https://docs.docker.com/engine/storage/volumes/
-
-[^4]: https://hostman.com/tutorials/deploying-a-node-js-application-using-docker/
-
-[^5]: https://adevait.com/nodejs/containerizing-node-js-applications-with-docker
-
-[^6]: https://www.digitalocean.com/community/tutorials/how-to-build-a-node-js-application-with-docker
-
-[^7]: https://buddy.works/guides/how-dockerize-node-application
-
-[^8]: https://www.docker.com/blog/how-to-use-the-node-docker-official-image/
-
-[^9]: https://code.visualstudio.com/docs/containers/quickstart-node
-
-[^10]: https://www.geeksforgeeks.org/docker-docker-container-for-node-js/
 
