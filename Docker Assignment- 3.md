@@ -24,12 +24,12 @@ systemctl start docker
 systemctl enable docker
 ```
 - Install npm package
-  ```
+ ```
   apt install npm -y
-  ```
-  ```
+ ```
+ ```
   npm -v
-  ```
+ ```
   
 - Create a project directory:
 
@@ -79,9 +79,9 @@ mkdir -p /my-volume
 docker run --name <Container_name> -p 3000:3000 -v /my-volume -it <Image_Id>
 ```
 - Restart container
-  ```
+```
   docker restart <container_id>
-  ```
+```
 `docker ps` listout your runnig contioner
 `docer inspect <container_ID>` check volume source
 
