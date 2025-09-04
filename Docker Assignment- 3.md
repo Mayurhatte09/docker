@@ -1,6 +1,6 @@
 # Docker Assignment 3
 
-# Use docker to deploy a containerize version of node.js application. the application should use theficial node.js image and install the required dependences for that configure the container to use volume to persistent data. 
+### Use docker to deploy a containerize version of node.js application. the application should use theficial node.js image and install the required dependences for that configure the container to use volume to persistent data. 
 
 
 ### 1. Node.js Application
