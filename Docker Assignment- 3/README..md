@@ -3,17 +3,16 @@
 ### Use docker to deploy a containerize version of node.js application. the application should use theficial node.js image and install the required dependences for that configure the container to use volume to persistent data. 
 
 
-### 1. Node.js Application
+### Node.js Application
 
-- Swithch to root user
+- Switch to root user
 ``` 
 sudo su -
 ```
-- Upsate Operationg system
+- Update Operating system
 ```
 apt update
 ```
-Install 
 - Install docker
 ``` 
 apt install docker 
@@ -24,12 +23,12 @@ systemctl start docker
 systemctl enable docker
 ```
 - Install npm package
- ```
-  apt install npm -y
- ```
- ```
-  npm -v
- ```
+```
+apt install npm -y
+```
+```
+npm -v
+```
   
 - Create a project directory:
 
@@ -47,10 +46,10 @@ npm init -y
 npm install express
 ```
 
-- Create `app.js` with sample code:
+- Create file `app.js` with sample code:
 [Click here to view app.js code](https://github.com/Mayurhatte09/docker-projects/blob/main/Docker%20Assignment-%203/app.js)
 
-### 2. Create a Dockerfile
+### Create a Dockerfile
 
 - Add a `Dockerfile` to your project folder:
 
@@ -94,7 +93,7 @@ http://localhost:3000
 <Instance_public_Ip>:3000
 ```
 ---
-YOu see your app is running.
+*You see your app is running.*
 ---
 
 
