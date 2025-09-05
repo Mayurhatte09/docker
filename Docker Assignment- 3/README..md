@@ -48,7 +48,7 @@ npm install express
 ```
 
 - Create `app.js` with sample code:
-[Click here to view app.js code](https://github.com/Mayurhatte09/docker/blob/main/app.js)
+[Click here to view app.js code](https://github.com/Mayurhatte09/docker-projects/blob/main/Docker%20Assignment-%203/app.js)
 
 ### 2. Create a Dockerfile
 
@@ -56,8 +56,8 @@ npm install express
 
 ```dockerfile
 FROM node:18
-WORKDIR /usr/src/app
-COPY package*.json ./
+WORKDIR /mnt
+COPY package.json ./
 RUN npm install
 COPY . .
 EXPOSE 3000
