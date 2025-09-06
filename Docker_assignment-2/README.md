@@ -47,7 +47,7 @@ docker build -t flask-app .
 ```
 - Build container from docker image
 ```
-docke run --name flask-web-app -p 5000:5000 -it flask-app
+docker run --name flask-web-app -d -p 5000:5000 flask-app
 ```
 `docker ps` listout your rnning containers
 
