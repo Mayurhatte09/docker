@@ -41,6 +41,7 @@ RUN pip install flask
 expose 5000
 CMD ["python", "app.py"]
 ```
+
 - Build the image from dockerfile
 ```
 docker build -t flask-app .
