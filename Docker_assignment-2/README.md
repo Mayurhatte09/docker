@@ -26,9 +26,9 @@ cd <directory_name>
 ```
 - Create file `app.py` with sample code:
   [Click here to view app.py code](https://github.com/Mayurhatte09/docker-projects/blob/main/Docker_assignment-2/app.py)
-- Create file `requirement.txt`
+- Create file `requirements.txt`
 ```
-echo "flask" > requirement.txt
+echo "flask" > requirements.txt
 ```
 - Create `dockerfile`
   `vi dockerfile`
