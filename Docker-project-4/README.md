@@ -26,7 +26,7 @@ mkdir <anyname>
 cd <directory_name>
 ```
 - Create file `app.java` with sample code:
-  [Click here to view java code](https://github.com/Mayurhatte09/docker-projects/blob/main/Docker-assignment-4/app.java)
+  [Click here to view java code](https://github.com/Mayurhatte09/docker-projects/blob/main/Docker-project-4/app.java)
 - Create `dockerfile`
   `vi dockerfile`
 ```
