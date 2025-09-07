@@ -52,5 +52,5 @@ http://localhost:8000
 <Instance_public_Ip>:8000
 ```
 ---
-*Yu see your app is running.*
----
+*You see your app is running*
+
