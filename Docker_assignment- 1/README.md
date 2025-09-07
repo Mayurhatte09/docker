@@ -1,5 +1,5 @@
 
-### Docker Project 1
+## Docker Project 1
 
 ### create a docker container for simple web server using the official image nginx to map the port 8080 to configure the container to map port 8080 on the host machine to port 80 in the container to verify that the web server is accessible from the host machine. 
 --------
