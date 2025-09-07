@@ -27,7 +27,7 @@ mkdir <anyname>
 cd <directory_name>
 ```
 - Create file `app.py` with sample code:
-  [Click here to view app.py code](https://github.com/Mayurhatte09/docker-projects/blob/main/Docker_assignment-2/app.py)
+  [Click here to view app.py code](https://github.com/Mayurhatte09/docker-projects/blob/main/Docker_project-2/app.py)
 - Create file `requirements.txt`
 ```
 echo "flask" > requirements.txt
