@@ -47,7 +47,7 @@ npm install express
 ```
 
 - Create file `app.js` with sample code:
-[Click here to view app.js code](https://github.com/Mayurhatte09/docker-projects/blob/main/Docker%20Assignment-%203/app.js)
+[Click here to view app.js code](https://github.com/Mayurhatte09/docker-projects/blob/main/Docker-project-3/app.js)
 
 ### Create a Dockerfile
 
